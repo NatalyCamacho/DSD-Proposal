@@ -1,6 +1,9 @@
 body {
   color: #17304a;
 }
+.ui-loader-header {
+  display: none;
+}
 .bg-primary {
   background-color: #a9d3dd !important;
 }
