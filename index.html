@@ -446,6 +446,15 @@
     <script>
       //Get current year for copyright
       $('#year').text(new Date().getFullYear());
+
+      $(document).ready(function() {
+        $('#slider3').swiperight(function() {
+          $(this).carousel('prev');
+        });
+        $('#slider3').swipeleft(function() {
+          $(this).carousel('next');
+        });
+      });
     </script>
   </body>
 </html>
