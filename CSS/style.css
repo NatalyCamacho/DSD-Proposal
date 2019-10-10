@@ -41,7 +41,12 @@ body {
   color: #828c9e;
   font-weight: lighter !important;
 }
-
+.carousel-size {
+  max-height: 365px;
+}
+.projects-img {
+  margin-left: -1em;
+}
 @media only screen and (max-width: 745px) {
   #main-header {
     background: url('../img/headerimg.png');
@@ -62,5 +67,11 @@ body {
   }
   .card-size {
     max-width: none !important;
+  }
+  .project-box {
+    display: block !important;
+  }
+  .carousel-size {
+    max-height: 860px;
   }
 }
