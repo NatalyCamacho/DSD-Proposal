@@ -47,6 +47,23 @@ body {
 .projects-img {
   margin-left: -1em;
 }
+.carousel-indicators {
+  bottom: -60px;
+}
+.carousel-indicators li {
+  background-color: #828c9e;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-indicators .active {
+  background-color: #17304a;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #828c9e;
+  background-size: 100%, 100%;
+}
 @media only screen and (max-width: 745px) {
   #main-header {
     background: url('../img/headerimg.png');
