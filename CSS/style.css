@@ -94,4 +94,8 @@ body {
   .carousel-size {
     max-height: 860px;
   }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
 }
