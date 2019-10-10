@@ -67,6 +67,9 @@ body {
   background-color: #828c9e;
   background-size: 100%, 100%;
 }
+.testimonies-img {
+  max-width: 200px;
+}
 @media only screen and (max-width: 745px) {
   #main-header {
     background: url('../img/headerimg.png');
@@ -97,5 +100,8 @@ body {
   .carousel-control-prev,
   .carousel-control-next {
     display: none;
+  }
+  .customers {
+    margin-bottom: 5em;
   }
 }
